@@ -1,0 +1,18 @@
+fun main() {
+   
+    val rows=5
+    
+    for(i in 1..rows){
+        print("\n")
+        
+        for(j in i..rows){
+            print("*")
+        }
+    }
+     for(i in 1..rows){
+              print("\n")
+             for(j in 1..i){
+                 print("*")
+             } 
+          }  
+}
