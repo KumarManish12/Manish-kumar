@@ -9,7 +9,7 @@ fun main() {
             print("*")
         }
     }
-     for(i in 1..rows){
+     for(i in 2..rows){
               print("\n")
              for(j in 1..i){
                  print("*")
